@@ -14,6 +14,7 @@
 		3C30DD161E1DA9B700048EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DD141E1DA9B700048EC6 /* LaunchScreen.storyboard */; };
 		3C30DD211E1DA9B700048EC6 /* IceCreamStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DD201E1DA9B700048EC6 /* IceCreamStackViewTests.swift */; };
 		3C30DD2C1E1DA9B700048EC6 /* IceCreamStackViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30DD2B1E1DA9B700048EC6 /* IceCreamStackViewUITests.swift */; };
+		3C30DD3C1E26966A00048EC6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C30DD3B1E26966A00048EC6 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C30DD271E1DA9B700048EC6 /* IceCreamStackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamStackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C30DD2B1E1DA9B700048EC6 /* IceCreamStackViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamStackViewUITests.swift; sourceTree = "<group>"; };
 		3C30DD2D1E1DA9B700048EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C30DD3B1E26966A00048EC6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,9 @@
 		3C30DD0A1E1DA9B700048EC6 /* IceCreamStackView */ = {
 			isa = PBXGroup;
 			children = (
-				3C30DD0B1E1DA9B700048EC6 /* AppDelegate.swift */,
-				3C30DD0D1E1DA9B700048EC6 /* ViewController.swift */,
-				3C30DD0F1E1DA9B700048EC6 /* Main.storyboard */,
-				3C30DD121E1DA9B700048EC6 /* Assets.xcassets */,
-				3C30DD141E1DA9B700048EC6 /* LaunchScreen.storyboard */,
-				3C30DD171E1DA9B700048EC6 /* Info.plist */,
+				3C30DD3B1E26966A00048EC6 /* README.txt */,
+				3C30DD3A1E26960B00048EC6 /* CoreAppStuff */,
+				3C30DD391E26957300048EC6 /* ViewControllers */,
 			);
 			path = IceCreamStackView;
 			sourceTree = "<group>";
@@ -123,6 +122,26 @@
 				3C30DD2D1E1DA9B700048EC6 /* Info.plist */,
 			);
 			path = IceCreamStackViewUITests;
+			sourceTree = "<group>";
+		};
+		3C30DD391E26957300048EC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C30DD0D1E1DA9B700048EC6 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3C30DD3A1E26960B00048EC6 /* CoreAppStuff */ = {
+			isa = PBXGroup;
+			children = (
+				3C30DD0B1E1DA9B700048EC6 /* AppDelegate.swift */,
+				3C30DD121E1DA9B700048EC6 /* Assets.xcassets */,
+				3C30DD171E1DA9B700048EC6 /* Info.plist */,
+				3C30DD0F1E1DA9B700048EC6 /* Main.storyboard */,
+				3C30DD141E1DA9B700048EC6 /* LaunchScreen.storyboard */,
+			);
+			name = CoreAppStuff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +253,7 @@
 			files = (
 				3C30DD161E1DA9B700048EC6 /* LaunchScreen.storyboard in Resources */,
 				3C30DD131E1DA9B700048EC6 /* Assets.xcassets in Resources */,
+				3C30DD3C1E26966A00048EC6 /* README.txt in Resources */,
 				3C30DD111E1DA9B700048EC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
